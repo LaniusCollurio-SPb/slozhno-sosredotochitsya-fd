@@ -10,4 +10,6 @@
   --title-color: #DB00FF;
   --base-text-color: #F1B2CE;
   --padding-s: 10px;
+  --content-padding-block: 40px;
+  --decor-inset: 10px;
 }
