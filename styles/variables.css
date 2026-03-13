@@ -5,11 +5,15 @@
 
 :root {
   --bg-image: url('/images/cover-image-dark.png');
-  --main-color: #000028;
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
-  --base-text-color: #F1B2CE;
-  --padding-s: 10px;
+  --bg-color: #000028;
+  --bg-accent-color: #ff0070;
+  --accent-color: #ff0070;
+  --focus-border-color: rgb(255, 0, 112, 0.4);
+  --title-color: #db00ff;
+  --base-title-color: #000028;
+  --base-text-color: #f1b2ce;
+  --padding-min: 10px;
   --content-padding-block: 40px;
   --decor-inset: 10px;
+  --main-title-fs: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
