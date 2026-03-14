@@ -1,11 +1,11 @@
 .page {
-  color: var(--base-text-color, #f1b2ce);
+  color: var(--base-text-color);
   font-family: 'IBM Plex mono', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 130%;
-  background-color: var(--bg-color, #000028);
-  background-image: var(--bg-image, url('/images/cover-image-dark.png'));
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +15,6 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  margin: 0 auto;
   padding: var(--padding-min);
   block-size: 100vh;
   min-block-size: 668px;
@@ -125,6 +124,7 @@
   font-weight: 700;
   line-height: 130%;
   inline-size: max(355px, 50%);
+  white-space: pre-line;
 }
 
 .title-decor {
