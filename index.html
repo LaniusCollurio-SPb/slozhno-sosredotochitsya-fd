@@ -9,12 +9,12 @@
     <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/images/mobile-icon.png" />
     <title>Сложно сосредоточиться</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/globals.css" />
-    <link rel="stylesheet" href="/styles/variables.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/dark.css" />
-    <link rel="stylesheet" href="/styles/light.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
@@ -199,40 +199,52 @@
       </section>
       <section class="container__section container__section_gallery">
         <h3 class="title-decor">А можно в картинках?</h3>
-        <img
-          class="gallery-image"
-          src="/images/sunset.png"
-          alt="Нарисованный красочный закат в горах"
-          loading="lazy"
-        />
-        <img
-          class="gallery-image"
-          src="/images/ice-cream.png"
-          alt="Нарисованные шарики мороженого с счастливыми лицами и шапочками из сливок в улыбающейся миске"
-          loading="lazy"
-        />
-        <img
-          class="gallery-image"
-          src="/images/tape.png"
-          alt="Нарисованная касcета с разными пиксельными элементами"
-          loading="lazy"
-        />
-        <img
-          class="gallery-image"
-          src="/images/books.png"
-          alt="Нарисованная стопка книжек с кружкой на самом верху"
-          loading="lazy"
-        />
-        <img
-          class="gallery-image"
-          src="/images/street.png"
-          alt="Нарисованная улица в Японии с пешеходным переходом"
-          loading="lazy"
-        />
+        <ul class="gallery__list">
+          <li class="gallery__list-item">
+            <img
+              class="gallery-image"
+              src="./images/sunset.png"
+              alt="Нарисованный красочный закат в горах"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item">
+            <img
+              class="gallery-image"
+              src="./images/ice-cream.png"
+              alt="Нарисованные шарики мороженого с счастливыми лицами и шапочками из сливок в улыбающейся миске"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item">
+            <img
+              class="gallery-image"
+              src="./images/tape.png"
+              alt="Нарисованная касcета с разными пиксельными элементами"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item">
+            <img
+              class="gallery-image"
+              src="./images/books.png"
+              alt="Нарисованная стопка книжек с кружкой на самом верху"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__list-item">
+            <img
+              class="gallery-image"
+              src="./images/street.png"
+              alt="Нарисованная улица в Японии с пешеходным переходом"
+              loading="lazy"
+            />
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <h5 class="main__title footer__title">focus</h5>
+      <h2 class="main__title footer__title">focus</h5>
     </footer>
   </body>
 </html>
